@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>TraWorld</title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!--Custom CSS-->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		
+	</head>
+	<body>
+	
+	<!--Main Container-->
+	<section class="container" id="maincontainer">
+
+		<!--Navbar-->
+		<section class="navbar navbar-fixed-top">
+			<section class="container">
+					<!--Toggle Button-->
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!--End of Toggle-->
+
+			<!--Navbar Logo-->
+			<a class="navbar-brand" href="/">
+				<figure>
+					<img class="logo" src="images/tra.jpg" alt="Logo">
+				</figure>	
+			</a>	
+			<!--Navbar Logo end-->
+			<section class="tops">
+			<section class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav navbar-nav">
+					<!--Dropdown-->
+					<li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li><a href="#" class="dropdown-item">Customize</a></li>
+							<li><a href="#" class="dropdown-item">Season Dicounts</a></li>
+						</ul>
+					</li>
+					<!--End of Dropdown-->
+					<li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Offers<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li><a href="#" class="dropdown-item">Customize</a></li>
+							<li><a href="#" class="dropdown-item">Season Dicounts</a></li>
+							<li><a href="#" class="dropdown-item">Solo Traveller</a></li>
+							<li><a href="#" class="dropdown-item">Packages</a></li>
+							<li><a href="#" class="dropdown-item">Budget Destination</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+						<ul class="dropdown-menu">
+							<li><a href="#" class="dropdown-item">Hotel Booking</a></li>
+							<li><a href="#" class="dropdown-item">Flight Booking</a></li>
+							<li><a href="#" class="dropdown-item">Cab Services</a></li>
+							<li><a href="#" class="dropdown-item">Sightseeing</a></li>
+						</ul>
+					</li>
+					<li class="active"><a href="#">Blog</a></li>
+				</ul>
+			<!--Search Button-->
+			<form class="navbar-form pull-left">
+					<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+					<button type="submit" class="btn btn-default" id="search-button">
+						<span class="glyphicon glyphicon-search">
+						</span>
+					</button>
+			</form>
+			<!--End of Search Button-->
+			<!--Log in and Sign up buttons-->
+			<section class="sidebar" pull right>	
+				<button type="button"><b>Log In</b></button>
+				<button type="button"><b>Sign Up</b></button>
+			</section>
+			</section>
+			</section>  
+			</section>
+		</section>
+
+		<!--End Navbar-->
+
+			
+ 		<!--Hero Unit-->
+
+ 		<section class="hero">
+			<article class="hero-inner">
+				<figure>
+					<img class="hero-unit" src="images/tpml.jpg" alt="Hero Image">
+				</figure>
+			</article>
+		</section>
+
+		<!--End of Hero Unit-->	
+
+		<!--Jumbotron-->
+
+		<div class="jumbotron">
+ 			<h2>Step into Spring</h2>
+ 			<p>Find the best cherry blossom viewing spots, discover colorful spring festivals, and enjoy the beauty of the blossoming season.</p>
+			<button type="button" class="btn bg-secondary btn-lg" data-toggle="modal" data-target="#myModal">Offers</button>
+				<!-- Modal -->
+				<div id="myModal" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+					     	<button type="button" class="close" data-dismiss="modal"></button>
+					        <h4 class="modal-title">Special Offers</h4>
+					    </div>
+					    <div class="modal-body">
+					        <p>No Offers Right Now.</p>
+					    </div>
+					    <div class="modal-footer">
+					    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					    </div>
+					    </div>
+					  </div>
+					</div><!--End of Modal-->
+			</div><!--End of Jumbotron-->
+
+
+
+	<hr>
+		<!--Grid Section-->
+			<!--Grid Heading-->
+			<section class="row" id="destinations">
+				<div class="col-12">
+					<h1>Popular Destinations</h1>
+				</div>
+			</section>
+			<!--End of Grid Heading-->
+			<!--Grid Body-->
+			<section class="row" id="countries">
+				<!--Column 1-->
+				<div class="col-sm-4 feature">
+					<div class="article">
+						<img src="images/t.jpg" alt="india">
+						<a href="#" target ="_blank" class="btn btn-info btn-block"><strong>India</strong></a>
+					</div>
+				</div>
+				<!--Column 2-->
+				<div class="col-sm-4 feature">
+					<div class="article">
+						<img src="images/c.jpg" alt="china">
+						<a href="#" target ="_blank" class="btn btn-info btn-block"><strong>China</strong></a>
+					</div>	
+				</div>
+				<!--Column 3-->
+				<div class="col-sm-4 feature">
+					<div class="article">
+						<img src="images/u.jpg" alt="usa">
+						<a href="#" target ="_blank" class="btn btn-info btn-block"><strong>USA</strong></a>
+					</div>
+				</div>
+			</section>
+
+			
+
+			<!--Section with tabbable and three rows-->
+			<section class="row" id="Sections">
+
+
+				<!--Tabbable-->
+				<div class="col-sm-6">
+				 <h3>3 Destinations that welcomes Indians with Visa On Arrival Visa</h3>
+				 <div class="tabbable">
+				 	<ul class="nav nav-tabs">
+				 		<li class="active"><a href="#tab1" data-toggle="tab">Indonesia</a></li>
+				 		<li ><a href="#tab2" data-toggle="tab">Thailand</a></li>
+				 		<li ><a href="#tab3" data-toggle="tab">Hong Kong</a></li>
+				 	</ul>
+				 	<div class="tab-content">
+				 		<!--Tab 1-->
+				 		<div class="tab-pane active" id="tab1">
+
+				 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32654820.88251219!2d117.88879999999997!3d-2.445650000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4c07d7496404b7%3A0xe37b4de71badf485!2sIndonesia!5e0!3m2!1sen!2sin!4v1556043636750!5m2!1sen!2sin" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+				 			
+				 			<p>Friendly and happening, cultured and historic, Thailand radiates a cool vibe which makes it a must-visit place on your bucket list. There’s so much to explore, monasteries, temples, beaches, flea markets, shopping arcades – you’ll be spoilt for choice. What’s even more cool is that Thailand offers a visa on arrival to Indian citizens which is valid for 15 days.</p>
+				 		</div>
+				 		<!--Tab 2-->
+						<div class="tab-pane" id="tab2">
+
+				 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7960466.011350536!2d101.49010399999999!3d13.039090500000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d8df747424db1%3A0x9ed72c880757e802!2sThailand!5e0!3m2!1sen!2sin!4v1556043513329!5m2!1sen!2sin" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+				 			<p>Home to the renowned Tanah Lot temple and its famous sunset point, Indonesia surely cracks a lot of punches when it comes to interesting sights. The fresh rice terraces, volcanoes, cascading waterfalls and the amazing people makes Indonesia –  an interesting place to visit. What’s even more interesting to know is that Indian travellers do not require to collect a Visa before actually arriving in the country. </p>
+						</div>
+						<!--Tab 3-->
+				 		<div class="tab-pane" id="tab3">
+
+				 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472323.0334459352!2d114.12770000000005!3d22.352734000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong+Kong!5e0!3m2!1sen!2sin!4v1556043869191!5m2!1sen!2sin" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+				 			<p>Dubbed as the gastronomic capital of Asia, Hong Kong is known for its iconic buildings, world class theme parks and a vibrant culture that is noticeable at every nook and corner. Apart from its cultural and architectural marvels, Hong Kong also boasts a Visa on Arrival policy that enable Indians for a 14 day visa-free stay, provided, you complete their pre-arrival registration as new rules.</p>
+
+						</div>
+					</div>
+				 </div>
+				</div><!--End of Tabbable-->
+			
+
+			<!-- Three Rows-->
+				<div class="col-sm-6 rowSection">
+					<h2>Tourist Favourites</h2>  
+
+					<div class="row_1">
+						<figure>         
+						<img src="images/paris.jpeg" alt="Paris">
+						</figure>
+					</div>
+					<div class="row_2">
+						<figure>
+							<img src="images/temple.jpeg" alt="Temple">
+						</figure>
+					</div>
+					<div class="row_3">
+						<figure>
+							<img src="images/colosseum.jpeg" alt="Rome">
+						</figure>
+					</div>
+
+				</div><!--End of Row-->
+			</section><!--End of Section-->
+
+
+			<hr>
+
+		<!--Carousel-->
+				<!--Carousel Heading-->
+				<section class="row" id="carousel-head">
+				<div class="col-12">
+					<h1>Where Would You Like to go?</h1>
+				</div>
+				</section>
+				<!--End of Heading-->
+
+				<!--Carousel Slides-->
+				<section class="carousel slide" id="myCarousel">
+			
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="myCarousel"></li>
+					<li data-slide-to="1" data-target="myCarousel"></li>
+					<li data-slide-to="2" data-target="myCarousel"></li>
+					<li data-slide-to="3" data-target="myCarousel"></li>
+
+				</ol>
+
+				<div class="carousel-inner">
+					<div class="item active"id="slide1">
+						<img src="images/sea.jpg" alt="Maldives">
+						<div class="carousel-caption">
+                            <h1><b><div class="wrapper">Maldives</div></b></h1>
+                        </div><!-- end carousel-caption-->
+					</div>
+					<div class="item" id="slide2">
+						<img src="images/twin.jpg" alt="Malaysia">
+						<div class="carousel-caption">
+                            <h1><b><span>Malaysia</span></b></h1>
+                        </div><!-- end carousel-caption-->
+					</div>
+					<div class="item" id="slide2">
+						<img src="images/mnt.jpg" alt="Japan">
+						<div class="carousel-caption">
+                            <h1><b><span>Japan</span></b></h1>
+                        </div><!-- end carousel-caption-->
+					</div>
+					<div class="item" id="slide3">
+						<img src="images/img1.jpg" alt="Copenhagen">
+						<div class="carousel-caption">
+                            <h1><b><span>Copenhagen</span></b></h1>
+                        </div><!-- end carousel-caption-->
+			 		</div>
+			 		
+				</div>
+
+				<!--Carousel Control-->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+				</section>
+				<!-- End of Carousel-->
+			
+
+			<hr>
+
+			<!--Text box-->
+			<section class="newsletter">
+				<p>Subscribe to our Monthly Newsletters</p>
+				<form action="#">
+					<input type="text" name="Subscribe">
+					<input type="submit" value="Subscribe">
+				</form>
+			</section>
+
+
+			<!--Footer Section-->
+			<footer>
+				<section class="footer-sec">
+					<div class=row>
+						<!--Favicons-->
+						<div class="col-sm-5 icons">
+							<a href="#" class="fa fa-facebook"></a>
+							<a href="#" class="fa fa-twitter"></a>
+							<a href="#" class="fa fa-google"></a>
+							<a href="#" class="fa fa-snapchat"></a>
+							<a href="#" class="fa fa-linkedin"></a>
+							<a href="#" class="fa fa-instagram"></a>
+							<a href="#" class="fa fa-youtube"></a>
+						</div>
+						<div class="col-sm-7 copyright">
+						<h6><strong> © 2014-2019 Traworld Travel Technology Limited. All Rights Reserved.</strong></h6>
+						</div>
+					</div>
+				</section>
+			</footer>
+		</section><!--End of Container--> 
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+

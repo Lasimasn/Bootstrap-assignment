@@ -1,0 +1,405 @@
+/*HEADER*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|PT+Sans+Narrow|Permanent+Marker');
+/*NAVBAR*/
+.nav
+{
+	padding-top: 15px;
+}
+.navbar
+{
+	background-color: #F8F7F7;
+}
+.logo
+{
+	width: 134px;
+	height:92px;
+}
+#searchInput
+{
+	width: 200px;
+	margin-top:15px;
+}
+#search-button
+{
+	margin-top: 15px;
+}
+.container .tops
+{
+	margin-top: 0px;
+	background-color: white;
+	text-transform: uppercase;
+}
+
+.sidebar button
+{
+	margin-top: 15px;
+	float: right;
+	
+}
+body
+	{
+		background-color: #F8F7F7;
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 19px;
+	}
+.navbar-brand
+	{
+		padding:6px 15px;
+	}
+/*HERO UNIT*/
+.hero .hero-inner .hero-unit
+	{
+		margin-top: 150px;
+	}
+.hero img
+	{
+		border-top: 3px solid black;
+		width: 100%;
+
+	}
+.hero-inner
+	{
+		display: flex;
+		justify-content:center;
+		align-items:center;
+	}
+
+
+/*JUMBOTRON*/
+.jumbotron
+	{
+		background-image: url(../images/spring.jpg);
+		background-position: 0% 25%;
+		background-size: cover;
+		height: 240px;
+		text-align: auto;
+		color: black;
+		margin-top:20px;
+		text-shadow: #666 0.3em 0.3em 0.3em;
+	}
+
+
+
+/*GRID SECTION*/
+#countries
+	{
+		padding: 30px;
+	text-align: center;
+	}
+#countries img 
+	{
+		margin: 0 0 20px;
+	}
+#destinations 
+	{
+		text-align: center;
+	}
+#countries .article 
+	{
+		align-items: center;
+	}
+#country
+	{
+		padding: 30px;
+		text-align: center;
+	}
+#country img 
+	{
+		margin: 0 0 20px;
+	}
+#destinations 
+	{
+		text-align: center;
+	}
+#country .article 
+	{
+		align-items: center;
+	}
+
+/*THREE ROWS*/
+
+.rowSection img 
+	{
+		width:250px;
+		margin:auto;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		display: flex;
+		margin-right: 80px;
+		height:180px;
+	}
+.rowSection h2
+	{
+	text-align: right;
+	margin-right: 80px;
+	}
+
+/*CAROUSEL*/
+#carousel-head h1
+	{
+		font-family: 'Kaushan Script', cursive;
+		text-align: center;
+	}
+.item h1
+	{
+		font-family: 'Kaushan Script', cursive;
+	}
+
+#myCarousel
+	{
+		margin-top: 50px;
+		background-color: #F8F7F7;
+	}
+/*NEWSLETTER*/
+.newsletter
+	{
+		background-color: #666;
+		padding-bottom: 10px
+		margin-left:10px;	
+	}
+.newsletter p
+	{
+		font-size: 22px;
+		text-transform:uppercase;
+		color: white;
+	}
+.newsletter p,form
+	{
+		padding-left: 10px;
+	}
+/*FOOTER*/
+footer
+	{
+		background-color: #666;
+		max-width: 100%;
+		height: 100%;
+		bottom: 0;
+		left: 0;
+	}
+
+
+.footer-sec .icons
+	{
+		float: right;	
+	}	
+.footer-sec .copyright h6
+	{
+		color: white;
+	}
+.footer-sec .copyright
+	{
+		padding-right:5px;
+	}
+.fa 
+	{
+	  font-size: 30px;
+	  width: 40px;
+	  height: 40px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 3px;
+	  border-radius: 50%;
+	  padding-top: 5px;
+	}
+
+.fa:hover 
+	{
+	    opacity: 0.7;
+	}
+
+.fa-facebook 
+	{
+	  background: #3B5998;
+	  color: white;
+	}
+
+.fa-twitter 
+	{
+	  background: #55ACEE;
+	  color: white;
+	}
+.fa-google 
+	{
+	  background: #dd4b39;
+	  color: white;
+	}
+
+.fa-linkedin 
+	{
+	  background: #007bb5;
+	  color: white;
+	}
+
+.fa-youtube 
+	{
+	  background: #bb0000;
+	  color: white;
+	}
+
+.fa-instagram 
+	{
+	  background: #dd4b39;
+	  color: white;
+	}
+
+.fa-snapchat 
+	{
+	  background: #fffc00;
+	  color: white;
+	 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:480px) and (min-width: 320px)
+	{
+
+		.hero-inner .hero-unit
+		{
+			width:100%;
+			height:100%;
+		}
+		.hero .searchTerm
+		{
+			width:120px;
+			height: 40px;
+			clear: both;
+		}
+		.hero .searchButton
+		{
+			width:40px;
+			height: 40px;
+		}
+		.hero .search
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.hero-inner .search
+		{
+			margin-top: 150px;
+		}
+		#countries img
+		{
+			width: 200px;
+			height: 150px;
+			padding-top: 8px;
+		}
+		.rowSection img
+		{
+			display: flex;
+			margin-left: 25px;
+		}
+		.rowSection h2
+		{
+			text-align:center;
+			margin-left: 60px;
+		}
+		.jumbotron 
+		{	
+			font-size: 15px;
+		}
+		.jumbotron h2
+		{	
+			font-size: 24px;
+		}
+		#carousel-head h1
+		{
+			font-size: 22px;
+		}
+		#myCarousel h1
+		{
+			font-size: 18px;
+		}
+		.jumbotron {font-size: 17px;}
+		.fa 
+		{
+			font-size: 20px;
+			width: 30px;
+			height: 30px;
+		}
+
+
+	}
+@media screen and (max-width:768px) and (min-width: 481px)
+	{
+
+		body
+		{
+			font-size: 16px;
+		}
+		hero-inner .hero-unit
+		{
+			width:1500px;
+			height:700px;
+		}
+		.hero .searchTerm
+		{
+			width:160px;
+			height: 40px;
+		}
+		.hero .searchButton
+		{
+			width:40px;
+			height: 40px;
+		}
+
+		#countries img
+		{
+			width: 200px;
+			height: 150px;
+			padding-top: 8px;
+		}
+		.fa 
+		{
+			font-size: 20px;
+			width: 30px;
+			height: 30px;
+		}
+		
+		/*jumbotron {font-size: 24px;}*/	
+	}
+@media screen and (max-width:1200px) and (min-width: 769px)
+	{
+		.hero .searchTerm
+		{
+			width:190px;
+			height: 50px;
+		}
+		.hero .searchButton
+		{
+			width:60px;
+			height: 50px;
+		}
+		.hero .search
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.rowSection img
+		{
+			margin-right:80px;
+		}
+		.rowSection h2
+		{
+			margin-right: 80px; 
+		}
+		.jumbotron .jumbo-btn
+		{
+			width:120px;
+			height:40px;
+			font-size: 19px;
+		}
+		#countries img
+		{
+			width: 280px;
+			height: 210px;
+			padding-top: 8px;
+		}
+		
+
+	}
